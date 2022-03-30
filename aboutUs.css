@@ -4,19 +4,15 @@
 {
     box-sizing: border-box;
 }
-body
+body html
 {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.aboutUs_container
-{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
 
-}
 .headline
 {
     margin-top: 120px;
@@ -48,6 +44,7 @@ body
 
 .txtContainer
 {
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,27 +57,28 @@ body
 
 .imgContainer
 {
+    width: 500px;
+    background-image: url("imgs/marshpic.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
     flex-grow: 2;
     margin-right: 50px; 
     flex-direction: column;
-    justify-content: center;
-    background-color: blue;
-   
-
+   justify-content: center;
+   align-items: center;
+    font-size: 3rem;
+    font-family: Jura;
+    font-weight:300;
+    line-height: 100px;
 }
-#imgTxt
+
+
+.countdownContainer
 {
-    display: flex;
-   
-  
-    color: red;
+    width: 100px;
+    height: 150px;
+    background-color: #FF7675;
 }
-#img
-{
-    filter: contrast(150%) brightness(50%);
-    width: 500px;
-}
-
-
-
 
