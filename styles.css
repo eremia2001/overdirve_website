@@ -34,7 +34,11 @@ body
     align-items: center;
     /*opacity: 50%;*/
 }
-.header_links > a 
+li
+{
+   list-style-type:none;
+}
+.header_links  a 
 {
     color: black;
     text-decoration: none;
