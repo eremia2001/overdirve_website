@@ -32,6 +32,8 @@ body
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #636e72;
+    box-shadow: 0px 1px 5px #2d3436;
     /*opacity: 50%;*/
 }
 li
