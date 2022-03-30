@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@100;400;700&family=Source+Sans+3:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.aboutUs_container
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.headline
+{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    padding: 0;
+}
+.headLine_underscore
+{
+    width: 200px;
+    border: 1px solid black;
+}
+.headline_container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.txtContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 30px;
+    padding: 4rem;
+}
+
+
+.imgContainer
+{
+    flex-grow: 2;
+    margin-right: 50px; 
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+   
+
+}
+#imgTxt
+{
+    display: flex;
+   
+  
+    color: red;
+}
+#img
+{
+    filter: contrast(150%) brightness(50%);
+    width: 500px;
+}
+
+
+
+
