@@ -1,0 +1,80 @@
+
+.memberContainer
+{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+.memberImg
+{
+    flex-shrink: 1;
+    flex-basis: 380px;
+    width: 380px;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 3px #636e72 ; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-size: 2.4rem;
+    margin: 0;
+    transition: box-shadow .6s;
+}
+
+.singleImgContainer
+{
+    font-size: 2rem;
+    text-align: center;
+    margin: 80px 0;
+    transition: all .6s;
+}
+.singleImgContainer > p 
+{
+    margin: 0;
+    padding: 0;
+}
+.memberContainer2
+{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.singleImgContainer:hover
+{
+    transform: translateY(-3%);
+
+}
+.memberImg:hover
+{
+    box-shadow: 15px 15px 3px #636e72 ; 
+}
+
+.img1
+{
+    background-image: url("imgs/pic1.jpg") ;
+}
+.img2
+{
+    background-image: url("imgs/pic2.jpg") ;
+}
+.img3
+{
+    background-image: url("imgs/pic3.jpg") ;
+}
+.img4
+{
+    background-image: url("imgs/stefan-stefancik-QXevDflbl8A-unsplash.jpg") ;
+}
+.img5
+{
+    background-image: url("imgs/vince-fleming-j3lf-Jn6deo-unsplash.jpg") ;
+}
