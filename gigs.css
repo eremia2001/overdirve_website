@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+.gigsContainer
+{
+    background-color:#1F2739 ;
+    display: flex;
+}
+.gigsContainer > .headline_container
+{
+    color: #FDCB6E;
+}
+.gigsContainer .headLine_underscore
+
+{
+    border: 1px solid #FDCB6E;
+}
+
+.contentTableContainer
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: white;
+    font-family: Nunito;
+    box-shadow: 8px 9px 3px rgba(0,0,0,0.4) ;
+}
+.column 
+{
+    text-align: center;
+    color: #185875;
+}
+.columnNames
+{
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: Nunito;
+    font-weight: bold;
+}
+.firstcolumn
+{
+    border: none;
+    width: 375px;
+}
+.secondcolumn
+{
+    border: none;
+    width: 325px;
+}
+.thirdcolumn
+{
+    border: none;
+    width: 240px;
+}
+.lastcolumn
+{
+    border: none;
+    width: 260px;
+}
+
+.firstData
+{
+    border-bottom: 3px solid #272B34;
+    border-right: 3px solid #272B34; ;
+    color: #FB667A ;
+    width: 375px;
+}
+.secondData
+{
+    border-bottom: 3px solid #272B34;
+    border-right: 3px solid #272B34; 
+    text-align: center;
+    width: 325px;
+}
+
+.thirdData
+{
+    border-bottom: 3px solid #272B34;
+    border-right: 3px solid #272B34; 
+    text-align: center;
+    width: 240px;
+}
+.lastData
+{
+    border-bottom: 3px solid #272B34;
+    text-align: center;
+    width: 260px;
+    color: #FDCB6E;
+}
+.data
+{
+    padding: 30px 20px;
+}
+
+
+.row
+{
+    display: flex;
+    background-color: #323C50;
+}
+
+
+.contacts
+{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Nunito;
+}
+.contacts a 
+{
+    text-decoration: none;
+    color: inherit;
+
+}
+.contactContainer
+{
+    display: flex;
+    justify-content: center;
+}
+.contactContainer  p 
+{
+    margin-left: 20px;
+}
+
+.contactimg
+{
+    width:  35px;
+    filter: invert(99%) sepia(100%) saturate(18%) hue-rotate(208deg) brightness(104%) contrast(100%);
+}
+
+#youtubelogo
+{
+    width: 45px;
+    transition: filter .5s;
+}
+#youtubelogo:hover
+{
+    
+filter: invert(35%) sepia(63%) saturate(2095%) hue-rotate(334deg) brightness(80%) contrast(114%);
+}
