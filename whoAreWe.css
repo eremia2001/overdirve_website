@@ -78,3 +78,10 @@
 {
     background-image: url("imgs/vince-fleming-j3lf-Jn6deo-unsplash.jpg") ;
 }
+
+.gigCountdown
+{
+    width: 100%;
+    height: 200px;
+    background-color: #ff7675;
+}
