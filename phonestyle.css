@@ -26,7 +26,6 @@
     .body
     {
         width: 100%;
-        display: none;
     }
 
     .links
@@ -99,7 +98,7 @@
     {
   
       flex-wrap: nowrap;
-      width: 400px;
+      width: 100vw;
       margin-bottom: 5vh;
 
     }
@@ -120,30 +119,32 @@
     .columnNames
     {
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 2.8vw;
     }
     .contentTableContainer
     {
         flex-direction: row;
         flex-wrap: wrap;
+     
     }
 
 
     .column
     {
         flex: 1;
- 
     }
+
 
     .table
     {
-        font-size: 1rem;
+        font-size: 3vw;
         flex: 1;
-        transform: translateY(-30%);
+     
     }
     .data
     {
         flex: 1;
+        border-right: none;
     }
 
 
@@ -172,11 +173,6 @@
     .contactContainer  p 
 {
     margin: 2vw 3vw
-}
-
-.whoAreWeContainer
-{
-  
 }
 
 
