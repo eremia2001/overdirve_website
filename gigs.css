@@ -48,22 +48,22 @@
 .firstcolumn
 {
     border: none;
-    width: 375px;
+    width: 15vw;
 }
 .secondcolumn
 {
     border: none;
-    width: 325px;
+    width: 15vw;
 }
 .thirdcolumn
 {
     border: none;
-    width: 240px;
+    width: 12vw;
 }
 .lastcolumn
 {
     border: none;
-    width: 260px;
+    width: 15vw;
 }
 
 .firstData
@@ -71,14 +71,15 @@
     border-bottom: 3px solid #272B34;
     border-right: 3px solid #272B34; ;
     color: #FB667A ;
-    width: 375px;
+    width: 15vw;
+    text-align: center;
 }
 .secondData
 {
     border-bottom: 3px solid #272B34;
     border-right: 3px solid #272B34; 
     text-align: center;
-    width: 325px;
+    width: 15vw;
 }
 
 .thirdData
@@ -86,13 +87,13 @@
     border-bottom: 3px solid #272B34;
     border-right: 3px solid #272B34; 
     text-align: center;
-    width: 240px;
+    width: 12vw;
 }
 .lastData
 {
     border-bottom: 3px solid #272B34;
     text-align: center;
-    width: 260px;
+    width: 15vw;
     color: #FDCB6E;
 }
 .data
@@ -104,7 +105,7 @@
 .row
 {
     display: flex;
-    background-color: #323C50;
+
 }
 
 
@@ -131,18 +132,18 @@
 }
 .contactContainer  p 
 {
-    margin-left: 20px;
+    margin-left: 1vw;
 }
 
 .contactimg
 {
-    width:  35px;
+    width: 2.2vw;
     filter: invert(99%) sepia(100%) saturate(18%) hue-rotate(208deg) brightness(104%) contrast(100%);
 }
 
 #youtubelogo
 {
-    width: 45px;
+    width: 2.4vw;
     transition: filter .5s;
 }
 #youtubelogo:hover
