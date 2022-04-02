@@ -1,0 +1,181 @@
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    .body_mainTxt
+    {
+        font-size: 4.5rem;
+        padding: 0;
+        margin-bottom: 5vh;
+        
+    }
+
+    .body_subTxt
+    {
+        font-size: 2.5rem;
+    }
+
+    #body_hrLine
+    {
+        margin-top: 3vh;
+        width: 300px;
+    }
+
+    .body_button
+    {
+        position:static;
+        padding: 10px 25px;
+        font-size: 1.2rem;
+    }
+    .body
+    {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+ 
+    }
+
+    .bodyContainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header
+    {
+        border: none;
+        box-shadow: none;
+    }
+    .header_logo
+    {
+        display: none;
+    }
+
+    .links
+    {
+        display: none;
+    }
+    #hamburger
+    {
+        display: block;
+        margin-right: 3vw;
+        background-color: yellow;
+    }
+
+
+
+    #youtube_link
+    {
+        display: none;
+    }
+    #instagram_link
+    {
+        display: none;
+    }
+
+    .barMenu
+    {
+        position:fixed;
+        z-index: 2;
+        left: 100%;
+        background-color: #2d3436;
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        font-size: 2.5rem;
+        font-family: Lato;
+        font-weight: 300;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        opacity: 0;
+        transition: all .8s;
+    }
+
+
+    .barMenu ul li 
+    {
+        margin-top: 5vh;
+    }
+    .barMenu ul a :active
+    {
+        color: #0984e3;
+        user-select: none;
+    }
+      /* #############################################################################
+                                        ÜBER UNS
+        ###########################################################################*/
+
+        .container
+        {
+            flex-direction: row;
+        }
+    
+        .txtContainer
+        {
+            font-size: 1.3rem;
+            line-height: 2.5vw;
+            width: 100%;
+            padding: 2rem;
+            margin-right: 3vw;
+        }
+    
+        .imgContainer
+        {
+            width: 80vw;
+            height: 50vh;
+            margin: 0;
+            font-size: 2.2rem;
+            line-height: 5vw;
+        }
+    
+        .aboutUs_container
+        {
+            width: 100%;
+            height: 100vh;
+        }
+        .headline_container
+        {
+            padding-top: 2%;
+        } 
+
+                /* #############################################################################
+                                       Gigs
+                 ###########################################################################*/
+   
+   
+
+    .columnNames
+    {
+        width: 100%;
+        font-size: 2.2vw;
+    }
+    .contentTableContainer
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+     
+    }
+
+
+    .column
+    {
+        flex: 1;
+    }
+
+
+    .table
+    {
+        font-size: 3vw;
+        flex: 1;
+     
+    }
+    .data
+    {
+        flex: 1;
+        border-right: none;
+    }
+}
+    

@@ -25,6 +25,10 @@ body
     display: flex;
     flex-direction: column;
 }
+.barMenu
+{
+    display: none;
+}
 
 .header
 {
@@ -58,7 +62,8 @@ li
     background-size: cover;
     width: 25px;
     height: 25px;
-    display: none;
+    background-color: blue;
+    display:none;
 }
 .menuExit
 {
