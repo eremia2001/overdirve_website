@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@100;400;700&family=Source+Sans+3:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap');
+
 *
 {
     box-sizing: border-box;
@@ -50,6 +51,31 @@ li
     color: inherit;
     text-decoration: none;
 }
+#hamburger
+{
+    background-image: url("imgs/bars-solid.svg");
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+.menuExit
+{
+    background-image: url("imgs/xmark-solid.svg");
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-right: 3vw;
+    user-select: none;
+    display: none;
+    transition: all .8s;
+}
+.barMenu
+{
+    display: none;
+}
 
 .header_socialMedia_links
 {
@@ -90,8 +116,6 @@ li
     font-family: "Jura";
     justify-content: center;
     padding-left: 2vw;
-
-
 }
 
 .body_mainTxt
@@ -124,3 +148,5 @@ li
 {
     background-color: #636e72;
 }
+
+

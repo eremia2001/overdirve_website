@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @media only screen and (max-width: 768px) {
     
 
@@ -28,19 +29,68 @@
         width: 100%;
     }
 
-    .links
+    .header
     {
-        display: none;
+        border: none;
+        box-shadow: none;
     }
-    .header_socialMedia
+    .header_logo
     {
         display: none;
     }
 
-    .header
+    .links
     {
         display: none;
     }
+    #hamburger
+    {
+        display: block;
+        margin-right: 3vw;
+    }
+
+
+
+    #youtube_link
+    {
+        display: none;
+    }
+    #instagram_link
+    {
+        display: none;
+    }
+
+    .barMenu
+    {
+        position:fixed;
+        z-index: 2;
+        background-color: #2d3436;
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        font-size: 2.5rem;
+        font-family: Lato;
+        font-weight: 300;
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        opacity: 0;
+        transition: all .8s;
+    }
+
+
+    .barMenu ul li 
+    {
+        margin-top: 5vh;
+    }
+    .barMenu ul a :active
+    {
+        color: #0984e3;
+        user-select: none;
+    }
+
 
     /* #############################################################################
                                         ÜBER UNS
