@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@100;400;700&family=Source+Sans+3:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap');
 
 
 .memberContainer
@@ -21,7 +23,7 @@
     margin: 0;
     transition: box-shadow .6s;
     height: 55vh;
-
+    font-family: Roboto;
 }
 
 .singleImgContainer
@@ -39,6 +41,7 @@
 {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
 
 
