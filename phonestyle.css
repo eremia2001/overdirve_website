@@ -47,8 +47,14 @@
     {
         display: block;
         margin-right: 3vw;
-        background-color: red;
     }
+
+    .barMenu a 
+    {
+        user-select: none;
+    }
+
+
 
 
 
@@ -81,6 +87,18 @@
         transition: all .8s;
     }
 
+    .homeContainer
+    {
+        background-image: none;
+    }
+    .bandpicContainer
+    {
+        background-image: url("imgs/bandphoto.JPG");
+        width: 100vw;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
 
 
     .barMenu ul li 
@@ -158,6 +176,10 @@
     {
         margin-top: 30px;
         font-size: 2.5rem;
+    }
+    .header
+    {
+        background-color: transparent;
     }
 
 

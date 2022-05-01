@@ -1,8 +1,34 @@
 let hamburger = document.getElementById("hamburger")
 let barMenu = document.getElementById("barMenu");
 let menuExit = document.getElementById("menuExit")
+let aboutUs = document.getElementById("header_links_aboutUs")
+let info = document.getElementById("header_links_info")
+let gigs = document.getElementById("header_links_gigs")
+let aboutUsBtn = document.getElementById("aboutUsBtn")
+let whoAreWeBtn = document.getElementById("whoAreWeBtn")
+let gigsBtn = document.getElementById("gigsBtn")
+let contactBtn = document.getElementById("contactBtn")
 
 
+
+
+hamburger.addEventListener("click",showBarMenu);
+menuExit.addEventListener("click",exitMenuBar);
+aboutUsBtn.addEventListener("click",exitMenuBar)
+whoAreWeBtn.addEventListener("click",exitMenuBar)
+gigsBtn.addEventListener("click",exitMenuBar)
+contactBtn.addEventListener("click",exitMenuBar)
+homeBtn.addEventListener("click",exitMenuBar)
+
+
+
+
+
+
+function scrollToAboutUs()
+{
+    window.scroll(100)
+}
 
 
 function showBarMenu()
@@ -23,6 +49,3 @@ function exitMenuBar()
 }
 
 
-hamburger.addEventListener("click",showBarMenu);
-
-menuExit.addEventListener("click",exitMenuBar);

@@ -18,16 +18,21 @@
                                                 <!--HOME-->
     <!--##########################################################################################-->
      
-   <div class="homeContainer page">
+   <div class="homeContainer page " id ="home">
+
+    <div class="bandpicContainer">
+    </div>
        <div class="header">
             <div class="header_logo">
-                <a><img id="header_logo_link" src="imgs/logo_onlyText.png" alt="Home"></a>
+                <a href="#home"><img id="header_logo_link" src="imgs/TransparentLogoOhneReflektion.png" alt="Home"></a>
             </div>
 
+      
             <ul class="header_links">
-                <li><a href =""class = "links"id="header_links_aboutUs">Über uns</a></li>
-                <li><a href =""class = "links"id="header_links_info">Wer sind wir ? </a></li>
-                <li><a href =""class = "links"id="header_links_gigs">Gigs</a></li>
+                <li><a href ="#aboutUs"class = "links"id="header_links_aboutUs">Über uns</a></li>
+                <li><a href ="#whoAreWe"class = "links"id="header_links_info">die Band </a></li>
+                <li><a href ="#gigs"class = "links"id="header_links_gigs">Gigs</a></li>
+                <li><a href ="#contact"class = "links"id="header_links_contact">Kontakt</a></li>
             </ul>
 
             <div class="header_socialMedia">
@@ -40,12 +45,13 @@
        <div class="barMenu" id="barMenu">
         <nav>
             <ul>
-                <a><li>Home</li></a>
-                <a><li>Über uns</li></a>
-                <a><li>die Band</li></a>
-                <a><li>Videos</li></a>
-                <a><li>Bilder</li></a>
-                <a><li>Kontakt</li></a>
+                <a href="#home" id="homeBtn"><li>Home</li></a>
+                <a href="#aboutUs" id="aboutUsBtn"><li>Über uns</li></a>
+                <a href="#whoAreWe" id="whoAreWeBtn"><li>die Band</li></a>
+              <!--  <a><li>Videos</li></a>
+                <a><li>Bilder</li></a>-->
+                <a href="#gigs" id="gigsBtn"><li>Gigs</li></a>
+                <a href="#contact" id="contactBtn"><li>Kontakt</li></a>
             </ul>
         </nav>
     </div>
@@ -55,8 +61,8 @@
 
                <p class="body_mainTxt"> Willkommen <br> bei  Overdrive</p>
                <div id="body_hrLine"></div>
-               <p class="body_subTxt">Die Band ihres Vertrauens</p>
-              <a href=""><button class="body_button">Buch uns</button> </a> 
+               <p class="body_subTxt">Die Partyband</p>
+             <!-- <a href=""><button class="body_button">Buch uns</button> </a> -->
            </div>
        </div>
    </div>
@@ -67,7 +73,7 @@
     <!--##########################################################################################-->
 
 
-   <div class="aboutUs_container page">
+   <div class="aboutUs_container page" id ="aboutUs">
 
         <div class="headline_container">
             <p class="headline"> Über uns </p>
@@ -106,7 +112,7 @@
     <!--##########################################################################################-->
     <div class="whoAreWeContainer page">
 
-        <div class="headline_container">
+        <div class="headline_container" id="whoAreWe">
             <p class="headline"> Wer sind wir ?  </p>
             <div class="headLine_underscore"></div>
         </div>
@@ -114,12 +120,12 @@
         <div class="memberContainer">
             <div class="singleImgContainer">
                 <p>Fritz</p>
-                <div class="memberImg img1">Drummer</div>
+                <a href="https://www.instagram.com/fritzor1507/"><div class="memberImg img1">Drummer</div></a>
             </div>
        
             <div class="singleImgContainer">
                 <p>Eremiya</p>
-                <div class="memberImg img2">Keyboarder</div>
+                <a href="https://www.instagram.com/madpianist/"><div class="memberImg img2">Keyboarder</div></a>
             </div>
 
             <div class="singleImgContainer">
@@ -129,7 +135,7 @@
 
             <div class="singleImgContainer">
                 <p>Fenja</p>
-                <div class="memberImg img4">Sängerin</div>
+                <a href="https://www.instagram.com/fenjakrd/"><div class="memberImg img4">Sängerin</div></a>
             </div>
             
             <div class="singleImgContainer">
@@ -149,7 +155,7 @@
 
     
     <div class="gigsContainer page">
-        <div class="headline_container">
+        <div class="headline_container" id="gigs">
             <p class="headline"> Gigs  </p>
             <div class="headLine_underscore gigUnderscore"></div>
         </div>
@@ -207,10 +213,10 @@
                                                 <!--Contacts-->
     <!--##########################################################################################-->
 
-        <div class="contacts">
+        <div class="contacts" id="contact">
             <a href="https://www.instagram.com/overdrive_dieband/"><div class="contactContainer">
                  <img class="contactimg" src="imgs/instagramLogo.svg">  
-                <p>@overdrive-band</p>
+                <p>@overdrive_dieband</p>
             
             </div></a>
 

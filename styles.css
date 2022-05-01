@@ -5,6 +5,10 @@
 {
     box-sizing: border-box;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     margin: 0;
@@ -16,14 +20,20 @@ body
 
 .homeContainer
 {
-    background-image: url("imgs/bandphoto3.JPG");
-    background-position: center;
-    background-size: cover;
     color: white;
     font-family: Roboto;
     font-weight: bold;
     display: flex;
     flex-direction: column;
+}
+
+.bandpicContainer
+{
+    background-image: url("imgs/bandphoto3.JPG");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 .barMenu
 {
@@ -44,7 +54,8 @@ body
     align-items: center;
     border-bottom: 2px solid #636e72;
     box-shadow: 0px 1px 5px #2d3436;
-    /*opacity: 50%;*/
+    background-color: #2d3436;
+    opacity: 100%;
 }
 li
 {
@@ -62,7 +73,6 @@ li
     background-size: cover;
     width: 25px;
     height: 25px;
-    background-color: blue;
     display:none;
 }
 .menuExit
@@ -89,7 +99,7 @@ li
 
 #header_logo_link
 {
-    width: 250px;
+    width: 200px;
 }
 #youtube_link
 {
