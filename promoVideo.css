@@ -1,0 +1,30 @@
+.promoVideoContainer
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.videoContainer
+{
+    background-color: #2d3436;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video
+{
+    width: 60vw;
+    height: 80vh;
+    box-shadow: 10px 10px 5px black;
+}
+
+
+

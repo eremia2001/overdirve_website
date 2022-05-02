@@ -27,12 +27,14 @@
     .body
     {
         width: 100%;
+        display: none;
     }
 
     .header
     {
         border: none;
         box-shadow: none;
+      
     }
     .header_logo
     {
@@ -47,6 +49,8 @@
     {
         display: block;
         margin-right: 3vw;
+     
+
     }
 
     .barMenu a 
@@ -55,6 +59,7 @@
     }
 
 
+  
 
 
 
@@ -87,18 +92,42 @@
         transition: all .8s;
     }
 
-    .homeContainer
+    #home
     {
-        background-image: none;
+        
+        flex-basis: 30vh;
     }
-    .bandpicContainer
+
+    #logoOnlyText
     {
-        background-image: url("imgs/bandphoto.JPG");
-        width: 100vw;
-        height: 50vh;
-        background-position: center;
+        display: block;
+        background-image: url("imgs/logo_onlyText.png");
         background-size: cover;
+        background-position: center;
+        flex: 1;
     }
+
+    .logoContainer
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 5vh;
+        margin-top: 1vh;
+    }
+
+    #logoOnlyTextTablet
+    {
+        display: none;
+    }
+    .logoContainerTablet
+    {
+        display: none;
+    }
+
+
+
+
 
 
     .barMenu ul li 
@@ -109,6 +138,19 @@
     {
         color: #0984e3;
         user-select: none;
+    }
+     /* #############################################################################
+                                        Promo Video
+        ###########################################################################*/
+
+    .videoContainer
+    {
+        height: 30vh;
+    }
+
+    #video
+    {
+        width: 100vw;
     }
 
 
@@ -128,6 +170,7 @@
         width: 100%;
         padding: 0;
         margin-left: 0px;
+        font-family: Roboto;
     }
 
     .imgContainer
@@ -155,6 +198,7 @@
     .whoAreWeContainer
     {
         height: 450vh;
+       
     }
 
     .memberContainer
@@ -174,8 +218,9 @@
     }
     .headline
     {
-        margin-top: 30px;
+        margin-top: 5vh;
         font-size: 2.5rem;
+    
     }
     .header
     {

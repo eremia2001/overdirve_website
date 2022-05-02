@@ -32,7 +32,7 @@
     text-align: center;
     transition: all .6s;
     flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 2;
     margin: 0;
     padding: 0;
 
@@ -58,7 +58,7 @@
 
 .img1
 {
-    background-image: url("imgs/Fritz.JPG") ;
+    background-image: url("imgs/fritz.jpg") ;
 }
 .img2
 {
@@ -66,11 +66,11 @@
 }
 .img3
 {
-    background-image: url("imgs/jj.JPG") ;
+    background-image: url("imgs/jj.jpg") ;
 }
 .img4
 {
-    background-image: url("imgs/fenja.JPG") ;
+    background-image: url("imgs/fenja.jpg") ;
 }
 .img5
 {

@@ -8,6 +8,7 @@ let aboutUsBtn = document.getElementById("aboutUsBtn")
 let whoAreWeBtn = document.getElementById("whoAreWeBtn")
 let gigsBtn = document.getElementById("gigsBtn")
 let contactBtn = document.getElementById("contactBtn")
+let videoBtn = document.getElementById("videoBtn")
 
 
 
@@ -19,8 +20,16 @@ whoAreWeBtn.addEventListener("click",exitMenuBar)
 gigsBtn.addEventListener("click",exitMenuBar)
 contactBtn.addEventListener("click",exitMenuBar)
 homeBtn.addEventListener("click",exitMenuBar)
+videoBtn.addEventListener("click",exitMenuBar)
 
 
+let count = 0 ; 
+if(window.onload)
+{
+    count++;
+}
+
+console.log(count)
 
 
 

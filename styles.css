@@ -4,6 +4,7 @@
 *
 {
     box-sizing: border-box;
+    user-select: none;
 }
 html
 {
@@ -25,16 +26,17 @@ body
     font-weight: bold;
     display: flex;
     flex-direction: column;
-}
-
-.bandpicContainer
-{
-    background-image: url("imgs/bandphoto3.JPG");
+    background-image: url("imgs/bandphoto.JPG");
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
 }
+
+#logoOnlyText
+{
+    display: none;
+}
+
+
 .barMenu
 {
     display: none;
@@ -166,5 +168,7 @@ li
 {
     background-color: #636e72;
 }
+
+
 
 
