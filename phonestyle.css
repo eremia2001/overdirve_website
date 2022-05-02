@@ -143,6 +143,11 @@
                                         Promo Video
         ###########################################################################*/
 
+        #videopage
+        {
+            flex-basis: 60vh;
+            
+        }
     .videoContainer
     {
         height: 30vh;
@@ -158,15 +163,21 @@
                                         ÜBER UNS
         ###########################################################################*/
 
+
+
     .container
     {
-        flex-direction: column;
-    }
+        justify-content: flex-start;
+    }    
 
+    #aboutUs
+    {
+        flex-basis: 110vh;
+    }
     .txtContainer
     {
         font-size: 1rem;
-        line-height: 21px;
+        line-height: 2vh;
         width: 100%;
         padding: 0;
         margin-left: 0px;
@@ -179,7 +190,7 @@
         height: 50vh;
         margin: 0;
         font-size: 2rem;
-        line-height: 30px;
+        line-height: 5vh;
     }
 
     .aboutUs_container
