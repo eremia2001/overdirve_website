@@ -172,16 +172,17 @@
 
     #aboutUs
     {
-        flex-basis: 110vh;
+        flex-basis: 100vh;
     }
     .txtContainer
     {
-        font-size: 1rem;
-        line-height: 2vh;
+        font-size: 4vw;
+        line-height: 2.5vh;
         width: 100%;
         padding: 0;
         margin-left: 0px;
         font-family: Roboto;
+        
     }
 
     .imgContainer
